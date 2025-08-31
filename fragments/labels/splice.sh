@@ -1,6 +1,8 @@
 splice)
     name="Splice"
     type="zip"
+    vendor="splice"
+    product="splice"
     if [[ "$(arch)" == "arm64" ]]; then
         appNewVersion=$(getJSONValue "$(curl -fs 'https://api.splice.com/v2/desktop/darwin/stable/latest?v=1.0.0&architecture=arm64')" "name")
         downloadURL="https://desktop.splice.com/darwin/stable/arm64/Splice.app.zip"

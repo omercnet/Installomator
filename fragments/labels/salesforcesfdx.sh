@@ -1,6 +1,8 @@
 salesforcecli)
     name="Salesforce CLI"
     type="pkg"
+    vendor="salesforce"
+    product="salesforcesfdx"
     packageID="com.salesforce.cli"
     if [[ $(arch) == "arm64" ]]; then
     downloadURL="https://developer.salesforce.com/media/salesforce-cli/sf/channels/stable/sf-arm64.pkg"

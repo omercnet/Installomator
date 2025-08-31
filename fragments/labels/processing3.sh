@@ -1,6 +1,8 @@
 processing3)
     name="Processing"
     type="zip"
+    vendor="processing"
+    product="processing"
     downloadURL=$(downloadURLFromGit processing processing)
     appNewVersion=$(versionFromGit processing processing)
     expectedTeamID="8SBRM6J77J"

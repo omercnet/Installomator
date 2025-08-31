@@ -1,6 +1,8 @@
 owncloud)
     name="ownCloud"
     type="pkg"
+    vendor="owncloud"
+    product="owncloud"
     downloadPage="https://download.owncloud.com/desktop/ownCloud/stable/latest/mac/"
     appNewVersion=$(curl -fsL "$downloadPage" | grep -oE 'ownCloud-[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+-(arm64|x86_64)\.pkg' | head -1 | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+')
     if [[ "$(arch)" == "arm64" ]]; then

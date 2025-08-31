@@ -1,6 +1,8 @@
 toonboomharmonypremium2024)
     name="Harmony 24 Premium"
     type="dmg"
+    vendor="harmony"
+    product="toonboomharmony"
     # appNewVersion=$(curl -s https://docs.toonboom.com/help/harmony-24/premium/release-notes/harmony/harmony-24-release-notes.html | grep -oE 'build [0-9]+\.[0-9]+\.[0-9]+\.[0-9]+' | awk '{print $2}')
     appNewVersion=$(release_notes_url=$(curl -s "https://docs.toonboom.com/help/harmony-24/premium/book/index.html" | \
     grep -o 'href="[^"]*release-notes/harmony/harmony-24[^"]*"' | \

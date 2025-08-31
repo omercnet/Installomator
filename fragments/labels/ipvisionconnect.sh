@@ -1,6 +1,8 @@
 ipvisionconnect)
     name="ipvision Connect"
     type="dmg"
+    vendor="ipvision"
+    product="ipvisionconnect"
     # Description: A softphone client from ipvision.dk
     downloadStore="https://my.ipvision.dk/connect/"
     downloadURL="${downloadStore}$(curl -fs "https://my.ipvision.dk/connect/" | grep osx | sort | tail -1 | cut -d '"' -f2)"

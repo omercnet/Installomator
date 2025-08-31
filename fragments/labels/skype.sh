@@ -1,6 +1,8 @@
 skype)
     name="Skype"
     type="dmg"
+    vendor="microsoft"
+    product="skype"
     downloadURL=$(curl -sfi https://get.skype.com/go/getskype-skypeformac | awk 'BEGIN{IGNORECASE=1} /location:/ {gsub(/\r/,"",$2); print $2}')
     archiveName=$(basename "$downloadURL")
     appNewVersion=$(awk -F'[-.]' '{print $2"."$3"."$4"."$5}' <<< "$archiveName")

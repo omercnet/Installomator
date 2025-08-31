@@ -2,6 +2,8 @@ cytoscape)
     name="Cytoscape"
     #appName="Cytoscape Installer.app"
     type="dmg"
+    vendor="cytoscape"
+    product="cytoscape"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="Cytoscape_[0-9._]*_macos_aarch64.dmg"
 

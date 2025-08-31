@@ -1,6 +1,8 @@
 grammarly)
      name="Grammarly Desktop"
      type="dmg"
+    vendor="grammarly"
+    product="grammarly"
      packageID="com.grammarly.ProjectLlama"
      downloadURL="https://download-mac.grammarly.com/Grammarly.dmg"
      expectedTeamID="W8F64X92K3"

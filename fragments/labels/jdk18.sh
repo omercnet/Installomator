@@ -1,6 +1,8 @@
 jdk18)
     name="Java SE Development Kit 18"
     type="pkgInDmg"
+    vendor="java"
+    product="jdk"
     versionKey="CFBundleShortVersionString"
     appNewVersion=$(curl -sf https://www.oracle.com/java/technologies/javase/jdk18-archive-downloads.html | grep -m 1 "Java SE Development Kit" | sed "s|.*Kit \(.*\)\<.*|\\1|")
     if [[ $(arch) == "arm64" ]]; then

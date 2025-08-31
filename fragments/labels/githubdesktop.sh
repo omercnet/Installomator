@@ -1,6 +1,8 @@
 githubdesktop)
     name="GitHub Desktop"
     type="zip"
+    vendor="github"
+    product="github_desktop"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://central.github.com/deployments/desktop/desktop/latest/darwin-arm64"
     elif [[ $(arch) == "i386" ]]; then

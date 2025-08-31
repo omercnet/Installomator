@@ -1,6 +1,8 @@
 aftermath)
     name="Aftermath"
     type="pkg"
+    vendor="jamf"
+    product="aftermath"
     packageID="com.jamf.aftermath"
     downloadURL="$(downloadURLFromGit jamf aftermath)"
     appNewVersion="$(versionFromGit jamf aftermath)"

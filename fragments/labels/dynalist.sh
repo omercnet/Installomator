@@ -1,6 +1,8 @@
 dynalist)
     name="Dynalist"
     type="dmg"
+    vendor="dynalist"
+    product="dynalist"
     downloadURL="https://dynalist.io/standalone/download?file=Dynalist.dmg"
     appNewVersion=""
     expectedTeamID="6JSW4SJWN9"

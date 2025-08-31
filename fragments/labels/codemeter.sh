@@ -1,6 +1,8 @@
 codemeter)
     name="CodeMeter"
     type="pkgInDmg"
+    vendor="codemeter"
+    product="codemeter"
     archiveName="CmInstall.pkg"
     appCustomVersion(){ defaults read "/Applications/Codemeter.app/Contents/Info.plist" CFBundleVersion | cut -d '.' -f 1-2 }
     html_page_source="https://www.wibu.com/de/support/anwendersoftware/anwendersoftware.html"

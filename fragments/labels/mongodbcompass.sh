@@ -1,6 +1,8 @@
 mongodbcompass)
     name="MongoDB Compass"
     type="dmg"
+    vendor="mongodb"
+    product="mongodbcompass"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="mongodb-compass-[0-9.]*-darwin-arm64.dmg"
     elif [[ $(arch) == "i386" ]]; then

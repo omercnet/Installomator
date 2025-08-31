@@ -1,6 +1,8 @@
 microsoftskypeforbusiness)
     name="Skype for Business"
     type="pkg"
+    vendor="microsoft"
+    product="skypeforbusiness"
     downloadURL="https://go.microsoft.com/fwlink/?linkid=832978"
     #appNewVersion=$(curl -fs https://macadmins.software/latest.xml | xpath '//latest/package[id="com.microsoft.skypeforbusiness.standalone"]/cfbundleshortversionstring' 2>/dev/null | sed -E 's/<cfbundleshortversionstring>([0-9.]*)<.*/\1/')
     appNewVersion=$(curl -fsIL "$downloadURL" | grep -i location: | sed -E 's/.*\/[a-zA-Z]*-([0-9.]*)\..*/\1/g')

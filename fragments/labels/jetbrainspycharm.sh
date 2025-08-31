@@ -2,6 +2,8 @@ jetbrainspycharm)
     # This is the Pro version of PyCharm. Do not confuse with PyCharm CE.
     name="PyCharm"
     type="dmg"
+    vendor="jetbrains"
+    product="pycharm"
     jetbrainscode="PCP"
     jetbrainsdistribution="mac"
     if [[ $(arch) == arm64 ]]; then

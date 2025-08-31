@@ -1,6 +1,8 @@
 eastwestopus)
     name="Opus"
     type="pkgInZip"
+    vendor="opus"
+    product="eastwestopus"
     packageID="com.eastwest.pkg.OpusInstaller"
     downloadXML="$(curl -fs 'http://s3.amazonaws.com/ic-resources/products/OPUS.xml')"
     downloadURL="$(echo "${downloadXML}" | xpath '(//product/files/file[@platform="mac"]/url/text())' 2>/dev/null)"

@@ -1,6 +1,8 @@
 mdmwatchdog)
     name="Addigy MDM Watchdog"
     type="pkg"
+    vendor="addigy"
+    product="mdmwatchdog"
     packageID="com.addigy.mdm-watchdog"
     downloadURL="https://agents.addigy.com/tools/mdm-watchdog/latest/mdm-watchdog.pkg"
     appNewVersion="$(curl -fsIL ${downloadURL} | grep -i location | cut -d '/' -f 6)"

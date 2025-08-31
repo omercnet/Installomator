@@ -1,6 +1,8 @@
 mockoon)
     name="Mockoon"
     type="dmg"
+    vendor="mockoon"
+    product="mockoon"
     archiveName="mockoon.setup[0-9.]*universal.dmg"
     downloadURL="$(downloadURLFromGit mockoon mockoon)"
     appNewVersion="$(versionFromGit mockoon mockoon)"

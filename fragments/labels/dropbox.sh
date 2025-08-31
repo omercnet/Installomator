@@ -1,6 +1,8 @@
 dropbox)
     name="Dropbox"
     type="dmg"
+    vendor="dropbox"
+    product="dropbox"
     # Handling differens on Apple Silicon and Intel arch
     if [[ $(arch) = "arm64" ]]; then
         printlog "Architecture: arm64"

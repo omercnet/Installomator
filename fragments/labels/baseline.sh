@@ -3,6 +3,8 @@ baseline)
     #Use this label if you want Baseline to run immediately upon install
     name="Baseline"
     type="pkg"
+    vendor="baseline"
+    product="baseline"
     archiveName="Baseline_v[0-9.]*.pkg"
     downloadURL=$(downloadURLFromGit secondsonconsulting Baseline )
     expectedTeamID="7Q6XP5698G"

@@ -1,6 +1,8 @@
 mkuser)
     name="mkuser"
     type="pkg"
+    vendor="mkuser"
+    product="mkuser"
     packageID="org.freegeek.pkg.mkuser"
     downloadURL="$(downloadURLFromGit freegeek-pdx mkuser)"
     # appNewVersion="$(versionFromGit freegeek-pdx mkuser unfiltered)"

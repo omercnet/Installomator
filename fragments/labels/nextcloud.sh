@@ -1,6 +1,8 @@
 nextcloud)
     name="nextcloud"
     type="pkg"
+    vendor="nextcloud"
+    product="nextcloud"
     #packageID="com.nextcloud.desktopclient"
     downloadURL=$(downloadURLFromGit nextcloud-releases desktop)
     appNewVersion=$(versionFromGit nextcloud-releases desktop)

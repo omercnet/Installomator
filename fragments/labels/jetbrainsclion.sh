@@ -1,6 +1,8 @@
 jetbrainsclion)
     name="CLion"
     type="dmg"
+    vendor="jetbrains"
+    product="clion"
     jetbrainscode="CL"
     jetbrainsdistribution="mac"
     if [[ $(arch) == arm64 ]]; then

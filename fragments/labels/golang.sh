@@ -1,6 +1,8 @@
 golang)
     name="GoLang"
     type="pkg"
+    vendor="golang"
+    product="golang"
     packageID="org.golang.go"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://go.dev$(curl -fs "https://go.dev/dl/" | grep -i "downloadBox" | grep "darwin-arm" | tr '"' '\n' | grep "pkg")"

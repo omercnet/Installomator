@@ -1,6 +1,8 @@
 jetbrainsdataspell)
     name="DataSpell"
     type="dmg"
+    vendor="jetbrains"
+    product="dataspell"
     jetbrainscode="DS"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

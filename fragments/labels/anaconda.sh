@@ -2,6 +2,8 @@ anaconda)
     name="Anaconda-Navigator"
     packageID="com.anaconda.io"
     type="pkg"
+    vendor="continuum_analytics"
+    product="anaconda"
     if [[ "$(arch)" == "arm64" ]]; then
         archiveName=$( curl -sf https://repo.anaconda.com/archive/ | awk '/href=".*Anaconda.*MacOSX.*arm64.*\.pkg"/{gsub(/.*href="|".*/, ""); gsub(/.*\//, ""); print; exit}' )
     else

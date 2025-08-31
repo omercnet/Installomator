@@ -1,6 +1,8 @@
 githubcopilotforxcode)
     name="GitHub Copilot for Xcode"
     type="dmg"
+    vendor="github"
+    product="githubcopilotforxcode"
     downloadURL="$(downloadURLFromGit github CopilotForXcode)"
     appNewVersion="$(versionFromGit github CopilotForXcode)"
     expectedTeamID="VEKTX9H2N7"

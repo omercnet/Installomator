@@ -1,6 +1,8 @@
 libreoffice)
     name="LibreOffice"
     type="dmg"
+    vendor="libreoffice"
+    product="libreoffice"
     appMajorVersion="$(curl -Ls https://www.libreoffice.org/download/download-libreoffice/ | grep dl_version_number | head -n 1 | cut -d'>' -f3 | cut -d'<' -f1)"
     if [[ $(arch) == "arm64" ]]; then
     	downloadURL="https://download.documentfoundation.org/libreoffice/stable/"$appMajorVersion"/mac/aarch64/LibreOffice_"$appMajorVersion"_MacOS_aarch64.dmg"

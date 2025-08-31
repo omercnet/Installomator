@@ -2,6 +2,8 @@ adobecreativeclouddesktop)
     name="Adobe Creative Cloud"
     appName="Creative Cloud.app"
     type="dmg"
+    vendor="adobe"
+    product="creative_cloud"
     if pgrep -q "Adobe Installer"; then
         printlog "Adobe Installer is running, not a good time to update." WARN
         printlog "################## End $APPLICATION \n\n" INFO

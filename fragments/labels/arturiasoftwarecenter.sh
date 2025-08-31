@@ -1,6 +1,8 @@
 arturiasoftwarecenter)
     name="Arturia Software Center"
     type="pkg"
+    vendor="arturia"
+    product="arturiasoftwarecenter"
     packageID="com.Arturia.ArturiaSoftwareCenter.resources"
     versionKey="CFBundleVersion"
     arturiaDetails="$(curl -fsL 'https://www.arturia.com/api/resources?slugs=asc&types=soft')"

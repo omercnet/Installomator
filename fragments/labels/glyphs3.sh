@@ -1,6 +1,8 @@
 glyphs3)
     name="Glyphs 3"
     type="zip"
+    vendor="glyphs"
+    product="glyphs"
     downloadURL="https://updates.glyphsapp.com/latest3.php"
     appNewVersion=$(curl -fsIL $downloadURL | sed -nE 's/content-disp.*Glyphs([^-]*).*/\1/p')
     versionKey="CFBundleShortVersionString"

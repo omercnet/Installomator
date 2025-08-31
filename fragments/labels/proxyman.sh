@@ -1,6 +1,8 @@
 proxyman)
     name="Proxyman"
     type="dmg"
+    vendor="proxyman"
+    product="proxyman"
     #downloadURL="https://proxyman.io/release/osx/Proxyman_latest.dmg"
     downloadURL="$(downloadURLFromGit ProxymanApp Proxyman)"
     appNewVersion="$(versionFromGit ProxymanApp Proxyman)"

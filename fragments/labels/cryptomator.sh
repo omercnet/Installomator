@@ -1,6 +1,8 @@
 cryptomator)
     name="Cryptomator"
     type="dmg"
+    vendor="cryptomator"
+    product="cryptomator"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="$(curl -fs "https://cryptomator.org/downloads/mac-arm64/thanks/" | grep -oE "href=https:\/\/github\.com\/cryptomator\/cryptomator\/releases\/download\/[0-9.]+\/.*?-arm64\.dmg " | awk -F '=' '{ print $2 }' | sed 's/[[:space:]]*$//')"
     elif [[ $(arch) == "i386" ]]; then

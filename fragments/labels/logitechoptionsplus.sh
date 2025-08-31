@@ -4,6 +4,8 @@ logitechoptionsplus)
     archiveName="logioptionsplus_installer.zip"
     installerTool="logioptionsplus_installer.app"
     type="zip"
+    vendor="logi"
+    product="logitechoptionsplus"
     downloadURL="https://download01.logi.com/web/ftp/pub/techsupport/optionsplus/logioptionsplus_installer.zip"
     # Latest version of Logi Options+ requires macOS 12+
     # If older macOS is specified in the url for appNewVersion, it will never correspond to the installed version

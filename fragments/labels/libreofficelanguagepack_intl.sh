@@ -8,6 +8,8 @@ libreofficelanguagepack_intl)
     # This label requires user interaction to complete the installation
     #
     type="dmg"
+    vendor="libreoffice"
+    product="libreofficelanguagepack_intl"
     packageID="org.libreoffice.script.langpack"
     userLanguage=$(runAsUser defaults read .GlobalPreferences AppleLanguages | head -2 | tail -1 | tr -dc "[:alnum:]\-")
     if [[ "$userLanguage" == "en-US" ]]; then

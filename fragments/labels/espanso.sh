@@ -1,6 +1,8 @@
 espanso)
     name="Espanso"
     type="zip"
+    vendor="espanso"
+    product="espanso"
     if [[ "$(arch)" == "arm64" ]]; then
         archiveName="Espanso-Mac-M1.zip"
     else

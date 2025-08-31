@@ -1,6 +1,8 @@
 zulujdkfx17)
     name="Zulu JDK FX 17"
     type="pkgInDmg"
+    vendor="zulu"
+    product="zulujdkfx"
     packageID="com.azulsystems.zulufx.17"
     if [[ $(arch) == i386 ]]; then
         downloadURL=https://cdn.azul.com/zulu/bin/$(curl -fs "https://cdn.azul.com/zulu/bin/" | grep -Eio '">zulu17.*ca-fx-jdk17.*x64.dmg(.*)' | cut -c3- | sed 's/<\/a><\/td>//' | sort | tail -1)

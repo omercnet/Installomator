@@ -3,6 +3,8 @@ firefox_intl)
     # and install corrosponding version of Firefox
     name="Firefox"
     type="dmg"
+    vendor="firefox"
+    product="firefox_intl"
     userLanguage=$(runAsUser defaults read .GlobalPreferences AppleLocale | tr '_' '-')
     printlog "Found language $userLanguage to be used for $name."
     releaseURL="https://ftp.mozilla.org/pub/firefox/releases/latest/README.txt"

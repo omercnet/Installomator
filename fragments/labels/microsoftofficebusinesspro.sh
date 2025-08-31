@@ -1,6 +1,8 @@
 microsoftofficebusinesspro)
     name="MicrosoftOfficeBusinessPro"
     type="pkg"
+    vendor="microsoft"
+    product="officebusinesspro"
     downloadURL="https://go.microsoft.com/fwlink/?linkid=2009112"
     appNewVersion=$(curl -fsIL "$downloadURL" | grep -i location: | grep -o "/Microsoft_.*pkg" | cut -d "_" -f 3)
     expectedTeamID="UBF8T346G9"

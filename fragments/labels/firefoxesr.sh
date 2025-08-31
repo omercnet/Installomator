@@ -2,6 +2,8 @@ firefoxesr|\
 firefoxesrpkg)
     name="Firefox"
     type="pkg"
+    vendor="firefox"
+    product="firefoxesr"
     downloadURL="https://download.mozilla.org/?product=firefox-esr-pkg-latest-ssl&os=osx"
     firefoxVersions=$(curl -fs "https://product-details.mozilla.org/1.0/firefox_versions.json")
     appNewVersion=$(getJSONValue "$firefoxVersions" "FIREFOX_ESR")

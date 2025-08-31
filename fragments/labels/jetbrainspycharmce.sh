@@ -2,6 +2,8 @@ jetbrainspycharmce|\
 pycharmce)
     name="PyCharm CE"
     type="dmg"
+    vendor="jetbrains"
+    product="pycharmce"
     jetbrainscode="PCC"
     jetbrainsdistribution="mac"
     if [[ $(arch) == arm64 ]]; then

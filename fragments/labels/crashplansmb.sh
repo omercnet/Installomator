@@ -1,6 +1,8 @@
 crashplansmb)
     name="CrashPlan"
     type="pkgInDmg"
+    vendor="crashplan"
+    product="crashplansmb"
     pkgName="Install Crashplan.pkg"
     downloadURL="https://download.crashplan.com/installs/agent/latest-smb-mac.dmg"
     appNewVersion=$( curl https://download.crashplan.com/installs/agent/latest-smb-mac.dmg  -s -L -I -o /dev/null -w '%{url_effective}' | cut -d "/" -f7 )

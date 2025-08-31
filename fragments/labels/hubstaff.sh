@@ -1,6 +1,8 @@
 hubstaff)
     name="Hubstaff"
     type="dmg"
+    vendor="hubstaff"
+    product="hubstaff"
     downloadURL="https://app.hubstaff.com/download/osx"
     appNewVersion=""
     expectedTeamID="24BCJT3JW2"

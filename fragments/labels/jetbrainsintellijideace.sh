@@ -2,6 +2,8 @@ jetbrainsintellijideace|\
 intellijideace)
     name="IntelliJ IDEA CE"
     type="dmg"
+    vendor="jetbrains"
+    product="intellijideace"
     jetbrainscode="IIC"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

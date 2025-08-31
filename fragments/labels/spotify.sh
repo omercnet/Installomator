@@ -1,6 +1,8 @@
 spotify)
     name="Spotify"
     type="dmg"
+    vendor="spotify"
+    product="spotify"
     if [[ $(arch) == arm64 ]]; then
         downloadURL="https://download.scdn.co/SpotifyARM64.dmg"
     elif [[ $(arch) == i386 ]]; then

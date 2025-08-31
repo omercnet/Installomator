@@ -1,6 +1,8 @@
 pulsar)
     name="Pulsar"
     type="zip"
+    vendor="pulsar"
+    product="pulsar"
     appNewVersion=$(versionFromGit pulsar-edit pulsar)
     if [[ $(arch) = "arm64" ]]; then
         printlog "Architecture: arm64"

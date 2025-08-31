@@ -1,5 +1,7 @@
 miniconda)
     type="pkg"
+    vendor="miniconda3latestmacosxarm64"
+    product="miniconda"
 	packageID="io.continuum.pkg.prepare_installation io.continuum.pkg.run_installation io.continuum.pkg.pathupdate"
     if [[ $(arch) == arm64 ]]; then
 		name="Miniconda3-latest-MacOSX-arm64"

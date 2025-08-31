@@ -1,6 +1,8 @@
 dockutil)
     name="dockutil"
     type="pkg"
+    vendor="dockutil"
+    product="dockutil"
     packageID="dockutil.cli.tool"
     downloadURL=$(downloadURLFromGit "kcrawford" "dockutil")
     appNewVersion=$(versionFromGit "kcrawford" "dockutil")

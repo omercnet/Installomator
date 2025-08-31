@@ -1,6 +1,8 @@
 keepassxc)
     name="KeePassXC"
     type="dmg"
+    vendor="keepassxc"
+    product="keepassxc"
     if [[ $(arch) == i386 ]]; then
       archiveName="x86_64.dmg"
     elif [[ $(arch) == arm64 ]]; then

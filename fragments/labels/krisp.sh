@@ -1,6 +1,8 @@
 krisp)
     name="Krisp"
     type="pkg"
+    vendor="krisp"
+    product="krisp"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://download.krisp.ai/mac?package=package_arm"
     elif [[ $(arch) == "i386" ]]; then

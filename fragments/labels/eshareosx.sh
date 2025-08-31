@@ -1,6 +1,8 @@
 eshareosx)
     name="e-Share"
     type="pkg"
+    vendor="eshare"
+    product="eshareosx"
     #packageID="com.ncryptedcloud.e-Share.pkg"
     downloadURL=https://www.ncryptedcloud.com/static/downloads/osx/$(curl -fs https://www.ncryptedcloud.com/static/downloads/osx/ | grep -o -i "href.*\".*\"" | cut -d '"' -f2)
     versionKey="CFBundleVersion"

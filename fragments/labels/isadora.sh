@@ -1,6 +1,8 @@
 isadora)
     name="Isadora"
     type="pkgInDmg"
+    vendor="isadora"
+    product="isadora"
     packageID="com.troikatronix.isadora-fat-std-installer"
     expectedTeamID="Q5V96MD6S6"
     siteURL="https://troikatronix.com"

@@ -2,6 +2,8 @@ miro)
     # credit: @matins
     name="Miro"
     type="dmg"
+    vendor="miro"
+    product="miro"
     if [[ $(arch) == arm64 ]]; then
         downloadURL="https://desktop.miro.com/platforms/darwin-arm64/Install-Miro.dmg"
     elif [[ $(arch) == i386 ]]; then

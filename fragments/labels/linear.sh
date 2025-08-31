@@ -1,6 +1,8 @@
 linear)
     name="Linear"
     type="dmg"
+    vendor="linear"
+    product="linear"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://desktop.linear.app/mac/dmg/arm64"
     elif [[ $(arch) == "i386" ]]; then

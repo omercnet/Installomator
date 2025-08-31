@@ -1,6 +1,8 @@
 ultracompare)
     name="UltraCompare"
     type="dmg"
+    vendor="ultracompare"
+    product="ultracompare"
     downloadURL="https://downloads.ultraedit.com/main/uc/mac/UltraCompare.dmg"
     appNewVersion=""
     expectedTeamID="2T4C9Y59FF"

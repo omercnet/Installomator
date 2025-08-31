@@ -1,6 +1,8 @@
 gotowebinar)
     name="GoTo"
     type="dmg"
+    vendor="goto"
+    product="gotowebinar"
     downloadURL="https://goto-desktop.goto.com/GoTo-arm64.dmg"
     appNewVersion=""
     expectedTeamID="GFNFVT632V"

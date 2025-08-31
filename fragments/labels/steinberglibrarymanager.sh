@@ -6,6 +6,8 @@ steinberglibrarymanager)
     #
     name="Steinberg Library Manager"
     type="pkgInDmg"
+    vendor="steinberg"
+    product="steinberglibrarymanager"
     packageID="com.steinberg.SteinbergLibraryManager"
     downloadURL="https://www.steinberg.net/slm-mac"
     appNewVersion="$( curl -LIs "${downloadURL}" | grep -i "location:" | grep "dmg" | cut -d\/ -f7 | cut -d'.' -f1-3 )"

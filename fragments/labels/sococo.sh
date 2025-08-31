@@ -1,6 +1,8 @@
 sococo)
     name="Sococo"
     type="dmg"
+    vendor="sococo"
+    product="sococo"
     downloadURL="https://s.sococo.com/rs/client/mac/sococo-client-mac.dmg"
     appNewVersion=""
     expectedTeamID="MR43LR5EJ4"

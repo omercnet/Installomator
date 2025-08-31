@@ -2,6 +2,8 @@ renew-noagent)
     #Renew by @BigMacAdmin and Second Son Consulting
     name="Renew-NoAgent"
     type="pkg"
+    vendor="renewnoagent"
+    product="renew_noagent"
     archiveName="Renew_NoAgent_v[0-9.]*.pkg"
     downloadURL=$(downloadURLFromGit secondsonconsulting Renew )
     appNewVersion=$(versionFromGit secondsonconsulting Renew )

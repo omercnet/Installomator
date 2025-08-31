@@ -1,6 +1,8 @@
 amazoncorretto11jdk)
     name="Amazon Corretto 11 JDK"
     type="pkg"
+    vendor="amazon"
+    product="amazoncorretto11jdk"
     case $(arch) in
         "arm64")
             cpu_arch="aarch64"

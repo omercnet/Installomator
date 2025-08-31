@@ -1,6 +1,8 @@
 jetbrainsdatagrip)
     name="DataGrip"
     type="dmg"
+    vendor="jetbrains"
+    product="datagrip"
     jetbrainscode="DG"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

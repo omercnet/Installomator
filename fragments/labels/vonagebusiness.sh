@@ -2,6 +2,8 @@ vonagebusiness)
     # @BigMacAdmin (Second Son Consulting) with assists from @Isaac, @Bilal, and @Theilgaard
     name="Vonage Business"
     type="dmg"
+    vendor="vonage"
+    product="vonagebusiness"
     downloadURL="https://vbc-downloads.vonage.com/mac/VonageBusinessSetup.dmg"
     expectedTeamID="E37FZSUGQP"
     archiveName="VonageBusinessSetup.dmg"

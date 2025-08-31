@@ -1,6 +1,8 @@
 cricutdesignspace)
     name="Cricut Design Space"
     type="dmg"
+    vendor="cricut"
+    product="cricutdesignspace"
     cricutVersionURL=$(getJSONValue $(curl -fsL "https://apis.cricut.com/desktopdownload/UpdateJson?operatingSystem=osxnative&shard=a") "result")
     cricutVersionJSON=$(curl -fs "$cricutVersionURL")
     appNewVersion=$(getJSONValue "$cricutVersionJSON" "rolloutVersion")

@@ -1,6 +1,8 @@
 packages)
     name="Packages"
     type="pkgInDmg"
+    vendor="packages"
+    product="packages"
     pkgName="Install Packages.pkg"
     pkgsDetails="$(curl -fs "http://s.sudre.free.fr/Software/documentation/RemoteVersion.plist")"
     appNewVersion=$(echo "${pkgsDetails}"| xpath 'string(//dict/string[1])' 2>/dev/null)

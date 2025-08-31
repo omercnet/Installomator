@@ -1,6 +1,8 @@
 macports)
     name="MacPorts"
     type="pkg"
+    vendor="macports"
+    product="macports"
     #buildVersion=$(uname -r | cut -d '.' -f 1)
     case $(uname -r | cut -d '.' -f 1) in
         23)

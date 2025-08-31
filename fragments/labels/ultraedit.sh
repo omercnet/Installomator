@@ -1,6 +1,8 @@
 ultraedit)
     name="UltraEdit"
     type="dmg"
+    vendor="ultraedit"
+    product="ultraedit"
     downloadURL="https://downloads.ultraedit.com/main/ue/mac/UltraEdit.dmg"
     appNewVersion=""
     expectedTeamID="2T4C9Y59FF"

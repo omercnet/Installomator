@@ -1,6 +1,8 @@
 zoomclient)
     name="zoom.us"
     type="pkg"
+    vendor="zoom"
+    product="zoom"
     packageID="us.zoom.pkg.videomeeting"
     if [[ $(arch) == i386 ]]; then
        downloadURL="https://zoom.us/client/latest/Zoom.pkg"

@@ -1,6 +1,8 @@
 crashplan)
     name="CrashPlan"
     type="pkgInDmg"
+    vendor="crashplan"
+    product="crashplan"
     downloadURL="https://download.crashplan.com/installs/agent/latest-mac.dmg"
     appNewVersion=$( curl -sfI https://download.crashplan.com/installs/agent/latest-mac.dmg | awk -F'/' '/Location: /{print $7}' )
     archiveName=$( curl -sfI https://download.crashplan.com/installs/agent/latest-mac.dmg | awk -F'/' '/Location: /{print $NF}' )

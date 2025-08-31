@@ -1,6 +1,8 @@
 tunnelblick)
     name="Tunnelblick"
     type="dmg"
+    vendor="tunnelblick"
+    product="tunnelblick"
     appNewVersion=$(curl -sf https://github.com/Tunnelblick/Tunnelblick/releases  | grep -B2 'Pre-release' |grep -m 1 "/Tunnelblick/Tunnelblick/releases/tag/" | sed -r 's/.*Tunnelblick ([^<]+).*/\1/')
     version_plus_build=$(echo ${appNewVersion} | awk '{gsub(/ /,"_"); gsub(/\(|\)/,""); print}')
     version=$(echo $version_plus_build | awk -F_ '{print $1}')

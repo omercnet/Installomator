@@ -1,6 +1,8 @@
 mysqlworkbenchce)
     name="MySQLWorkbench"
     type="dmg"
+    vendor="mysqlworkbench"
+    product="mysqlworkbenchce"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://dev.mysql.com/get/Downloads/MySQLGUITools/$(curl -fsL "https://dev.mysql.com/downloads/workbench/?os=33" | grep -o "mysql-workbench-community-.*-macos-arm64.dmg" | head -1)"
     elif [[ $(arch) == "i386" ]]; then

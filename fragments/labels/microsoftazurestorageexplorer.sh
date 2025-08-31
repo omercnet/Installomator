@@ -1,6 +1,8 @@
 microsoftazurestorageexplorer)
     name="Microsoft Azure Storage Explorer"
     type="zip"
+    vendor="microsoft"
+    product="azurestorageexplorer"
     if [[ $(arch) == arm64 ]]; then
         archiveName="StorageExplorer-darwin-arm64.zip"
     elif [[ $(arch) == i386 ]]; then

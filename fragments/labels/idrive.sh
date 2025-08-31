@@ -1,6 +1,8 @@
 idrive)
     name="IDrive"
     type="pkgInDmg"
+    vendor="idrive"
+    product="idrive"
     pkgName="IDrive.pkg"
     downloadURL=$(curl -fs https://static.idriveonlinebackup.com/downloads/version_mac.js | tr -d '\n\t' | sed -E 's/.*(https.*dmg).*/\1/g')
     appNewVersion=$(curl -fs https://static.idriveonlinebackup.com/downloads/version_mac.js | tr -d '\n\t' | sed -E 's/.*mac_vernum\=\"Version\ ([0-9.]*).*/\1/g')

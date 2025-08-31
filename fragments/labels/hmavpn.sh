@@ -1,6 +1,8 @@
 hmavpn)
 name="HMA-VPN"
 type="pkgInDmg"
+    vendor="hmavpn"
+    product="hmavpn"
 packageID="com.privax.osx.provpn"
 downloadURL="https://s-mac-sl.avcdn.net/macosx/privax/HMA-VPN.dmg"
 appNewVersion=""

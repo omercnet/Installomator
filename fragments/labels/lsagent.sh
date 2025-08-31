@@ -31,6 +31,8 @@ lsagent)
     #  --agentkey <agentkey>                       Cloud Relay Authentication Key (Optional)
     #                                              Default: 
     type="dmg"
+    vendor="lsagentosx"
+    product="lsagent"
     downloadURL="https://content.lansweeper.com/lsagent-mac/"
     appNewVersion="$(curl -fsIL "$downloadURL" | grep -i "location" | cut -w -f2 | cut -d "/" -f5-6 | tr "/" ".")"
     installerTool="LsAgent-osx.app"

@@ -1,6 +1,8 @@
 outputarcade)
     name="Arcade"
     type="pkg"
+    vendor="arcade"
+    product="outputarcade"
     arcadeVersion="$(curl -fs "https://api.output.com/v1/arcade_version")"
     if [[ -d "/Applications/Arcade.app" ]]; then
         downloadURL=$(getJSONValue "$arcadeVersion" packages.mac.url)

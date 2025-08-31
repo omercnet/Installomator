@@ -1,6 +1,8 @@
 cinema4d2023)
     name="Cinema 4D"
     type="dmg"
+    vendor="cinema"
+    product="cinema4d"
     appCustomVersion(){
       defaults read "/Applications/Maxon Cinema 4D 2023/Cinema 4D.app/Contents/Info.plist" CFBundleGetInfoString | grep -Eo "2023+\.[0-9]+\.[0-9]+"
     }

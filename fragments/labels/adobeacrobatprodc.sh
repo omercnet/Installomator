@@ -2,6 +2,8 @@ adobeacrobatprodc)
     name="Adobe Acrobat Pro DC"
     appName="Acrobat Distiller.app"
     type="pkgInDmg"
+    vendor="adobe"
+    product="acrobat_pro_dc"
     pkgName="Acrobat/Acrobat DC Installer.pkg"
     packageID="com.adobe.acrobat.DC.viewer.app.pkg.MUI"
     downloadURL="https://trials.adobe.com/AdobeProducts/APRO/Acrobat_HelpX/osx10/Acrobat_DC_Web_WWMUI.dmg"

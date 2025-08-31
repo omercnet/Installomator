@@ -1,6 +1,8 @@
 magicbullet)
     name="Magic Bullet Suite"
     type="zip"
+    vendor="magic"
+    product="magicbullet"
     appCustomVersion(){
     	ls "/Users/Shared/Red Giant/uninstall" | grep bullet | grep -Eo "([0-9][0-9][0-9][0-9]\.[0-9]+(\.[0-9])?)" | head -n 30 | sort -gru
     }

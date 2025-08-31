@@ -1,6 +1,8 @@
 lgcalibrationstudio)
     name="LG Calibration Studio"
     type="pkgInZip"
+    vendor="lgcalibrationstudio"
+    product="lgcalibrationstudio"
     packageID="LGSI.TrueColorPro"
     releaseURL="https://www.lg.com/de/support/software-select-category-result?csSalesCode=34WK95U-W.AEU"
     appNewVersion=$(curl -sf $releaseURL | grep -m 1 "Mac_LCS_" | sed -E 's/.*LCS_([0-9.]*).zip.*/\1/g')

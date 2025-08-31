@@ -3,6 +3,8 @@ microsoftonedrivesuprod)
     # Microsoft OneDrive StandaloneUpdater Production
     name="OneDrive"
     type="pkg"
+    vendor="microsoft"
+    product="onedrivesuprod"
     onedriveFeed="https://g.live.com/0USSDMC_W5T/MacODSUProduction"
     downloadURL="$(curl -fsL "${onedriveFeed}" | grep -A1 "UniversalPkgBinaryURL" | tail -1 | cut -d'>' -f2 | cut -d'<' -f1)"
     appNewVersion="$(curl -fsL "${onedriveFeed}" | grep -A1 "CFBundleShortVersionString" | tail -1 | cut -d'>' -f2 | cut -d'<' -f1)"

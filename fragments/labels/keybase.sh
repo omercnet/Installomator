@@ -1,6 +1,8 @@
 keybase)
     name="Keybase"
     type="dmg"
+    vendor="keybase"
+    product="keybase"
     if [[ $(arch) == arm64 ]]; then
         downloadURL=$(curl -s https://keybase.io/docs/the_app/install_macos | grep data-target | cut -d '"' -f2 | grep arm64 )
         appNewVersion=$( curl -sfL https://prerelease.keybase.io/update-darwin-arm64-prod-v2.json | grep '"version": '  | awk '{print $2}' | awk -F\" '{print $2}' )

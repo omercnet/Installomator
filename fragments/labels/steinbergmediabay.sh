@@ -6,6 +6,8 @@ steinbergmediabay)
     #
     name="Steinberg Media Bay"
     type="pkgInDmg"
+    vendor="steinberg"
+    product="steinbergmediabay"
     packageID="com.steinberg.MediaClient"
     downloadURL="https://www.steinberg.net/smb-mac"
     appNewVersion="$( curl -LIs "${downloadURL}" | grep -i "location:" | grep "dmg" | grep -o '[0-9]\.[0-9]\.[0-9][0-9]')"

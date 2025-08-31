@@ -1,6 +1,8 @@
 archimate)
     name="Archi"
     type="dmg"
+    vendor="archi"
+    product="archimate"
     if [[ $(arch) == "arm64" ]]; then
       downloadURL="https://www.archimatetool.com"
       downloadURL+=$(curl -s https://www.archimatetool.com/download/ | grep dmg | sed -n 's/.*href="\([^"]*\)".*/\1/p' | awk 'NR==2')

@@ -1,6 +1,8 @@
 vagrant)
     name="Vagrant"
     type="pkgInDmg"
+    vendor="hashicorp"
+    product="vagrant"
     pkgName="vagrant.pkg"
     cpu_arch="${$(arch)/i386/amd64}"
     downloadURL=$(curl -fsL "https://developer.hashicorp.com/vagrant/downloads" | grep -oE 'https[^"]*'$cpu_arch'[^"]*.dmg' | head -1)

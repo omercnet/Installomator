@@ -1,6 +1,8 @@
 pgadmin4)
     name="pgAdmin 4"
     type="dmg"
+    vendor="pgadmin"
+    product="pgadmin"
     downloadParent="https://www.postgresql.org/ftp/pgadmin/pgadmin4/"
     appNewVersion=$(curl -fs "${downloadParent}" | grep -oE 'v[0-9]+.[0-9]+' | sort -V | tail -n 1 | sed 's/v//g')
     if [[ "$(arch)" == "arm64" ]]; then

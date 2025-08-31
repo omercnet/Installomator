@@ -1,6 +1,8 @@
 eposconnect)
     name="EPOS Connect"
     type="pkg"
+    vendor="epos"
+    product="eposconnect"
     #packageID="com.DSEA.pkg.DSEASDKM1"
     #downloadURL="https://www.eposaudio.com/globalassets/___image-library/_enterprise/files/english/epos-connect/epos-connect-7.7.0/eposconnect_7.7.0.44457.pkg"
     downloadURL=$(curl -fs "https://www.eposaudio.com/en/dk/software/epos-connect" | tr '"' "\n" | grep -o "^https://www.eposaudio.*.pkg$")
