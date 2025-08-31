@@ -1,6 +1,8 @@
 googlechrome)
     name="Google Chrome"
     type="dmg"
+    vendor="google"
+    product="chrome"
     downloadURL="https://dl.google.com/chrome/mac/universal/stable/GGRO/googlechrome.dmg"
     appNewVersion=$(getJSONValue "$(curl -s "https://chromiumdash.appspot.com/fetch_releases?platform=Mac&channel=Stable&num=1")" "[0].version")
     expectedTeamID="EQHXZ8M8AV"

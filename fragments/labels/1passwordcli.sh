@@ -1,6 +1,8 @@
 1passwordcli)
     name="1Password CLI"
     type="pkg"
+    vendor="1password"
+    product="1passwordcli"
     #packageID="com.1password.op"
     downloadURL=$(curl -fs https://app-updates.agilebits.com/product_history/CLI2 | grep -m 1 -i op_apple_universal | cut -d'"' -f 2)
     appNewVersion=$(echo $downloadURL | sed -E 's/.*\/[a-zA-Z_]*([0-9.]*)\..*/\1/g')

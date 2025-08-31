@@ -1,6 +1,8 @@
 4kvideodownloaderplus)
     name="4K Video Downloader+"
     type="dmg"
+    vendor="4k"
+    product="4kvideodownloaderplus"
     if [[ $(/usr/bin/arch) == "arm64" ]]; then 
         downloadURL="$(curl -A "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" -fsL "https://www.4kdownload.com/downloads/34" | grep -E -o "https:\/\/dl\.4kdownload\.com\/app\/4kvideodownloaderplus.*arm64.*?.dmg\?source=website" | head -1)"
     else
