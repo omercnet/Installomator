@@ -1,7 +1,7 @@
 nodejs)
     name="nodejs"
     type="pkg"
-    vendor="nodejs"
+    vendor="nodejs_foundation"
     product="node.js"
     appNewVersion=$(curl -s -L https://nodejs.org/dist/latest/ | sed -nE 's|.*>node-(.*)\.pkg</a>.*|\1|p')
     appCustomVersion(){/usr/local/bin/node -v}

@@ -1,7 +1,7 @@
 python)
     name="Python"
     type="pkg"
-    vendor="python"
+    vendor="python_software_foundation"
     product="python"
     appNewVersion="$( curl --compressed -s "https://www.python.org/downloads/macos/" | awk '/Latest Python 3 Release - Python/{gsub(/<\/?[^>]+(>|$)/, ""); print $NF}' )"
     archiveName="$( curl -s "https://www.python.org/ftp/python/$appNewVersion/" | grep -om 1 "\"python.*macos.*\.pkg\"" | tr -d \" )"

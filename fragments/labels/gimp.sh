@@ -1,7 +1,7 @@
 gimp)
     name="GIMP"
     type="dmg"
-    vendor="gimp"
+    vendor="gnu"
     product="gimp"
     gimpDetails="$(curl -fs "https://www.gimp.org/gimp_versions.json")"
     appNewVersion="$(getJSONValue "$gimpDetails" "STABLE[0].version")"

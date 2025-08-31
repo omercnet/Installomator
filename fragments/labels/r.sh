@@ -1,7 +1,7 @@
 r)
     name="R"
     type="pkg"
-    vendor="r"
+    vendor="r_foundation"
     product="r"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://cloud.r-project.org/bin/macosx/$( curl -fsL https://cloud.r-project.org/bin/macosx/ | grep -m 1 -o '<a href=".*arm64\.pkg">' | sed -E 's/.+"(.+)".+/\1/g' )"

@@ -1,7 +1,7 @@
 libreoffice)
     name="LibreOffice"
     type="dmg"
-    vendor="libreoffice"
+    vendor="the_document_foundation"
     product="libreoffice"
     appMajorVersion="$(curl -Ls https://www.libreoffice.org/download/download-libreoffice/ | grep dl_version_number | head -n 1 | cut -d'>' -f3 | cut -d'<' -f1)"
     if [[ $(arch) == "arm64" ]]; then
