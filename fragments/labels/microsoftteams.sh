@@ -2,6 +2,8 @@ microsoftteamsclassic|\
 microsoftteams)
     name="Microsoft Teams classic"
     type="pkg"
+    vendor="microsoft"
+    product="teams"
     #packageID="com.microsoft.teams"
     downloadURL="https://go.microsoft.com/fwlink/?linkid=869428"
     appNewVersion=$(curl -fsIL "${downloadURL}" | grep -i "^location" | tail -1 | cut -d "/" -f5)

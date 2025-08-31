@@ -1,6 +1,8 @@
 figma)
     name="Figma"
     type="zip"
+    vendor="figma"
+    product="figma"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://desktop.figma.com/mac-arm/Figma.zip"
     elif [[ $(arch) == "i386" ]]; then

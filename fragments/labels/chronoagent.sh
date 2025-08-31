@@ -1,6 +1,8 @@
 chronoagent)
     name="ChronoAgent"
     type="pkgInDmg"
+    vendor="chronoagent"
+    product="chronoagent"
     # packageID="com.econtechnologies.preference.chronoagent"
     # versionKey="CFBundleVersion"
     # None of the above can read out the installed version

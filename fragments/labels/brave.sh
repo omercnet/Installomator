@@ -1,6 +1,8 @@
 brave)
     name="Brave Browser"
     type="dmg"
+    vendor="brave"
+    product="brave_browser"
     if [[ $(arch) != "i386" ]]; then
         printlog "Architecture: arm64 (not i386)"
         downloadURL=$(curl -fsIL https://laptop-updates.brave.com/latest/osxarm64/release | grep -i "^location" | sed -E 's/.*(https.*\.dmg).*/\1/g')

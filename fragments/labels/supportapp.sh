@@ -1,6 +1,8 @@
 supportapp)
     name="Support"
     type="pkg"
+    vendor="support"
+    product="supportapp"
     packageID="nl.root3.support"
     downloadURL=$(downloadURLFromGit root3nl SupportApp)
     appNewVersion=$(versionFromGit root3nl SupportApp)

@@ -1,6 +1,8 @@
 synergyeditor|synergyeditorbasketball)
     name="Synergy Editor"
     type="dmg"
+    vendor="synergy"
+    product="synergyeditorbasketball"
     if [[ "$(arch)" == "arm64" ]]; then
         downloadURL=$( echo https://www.synergysportstech.com/apps/editor/basketball/macos/$(curl -s https://www.synergysportstech.com/apps/editor/basketball/macos/ | grep arm64.dmg | grep -o 'href="[^"]*' | head -1 | awk -F '="' '{print $NF}' ))
     else

@@ -1,6 +1,8 @@
 androidstudio)
     name="Android Studio"
     type="dmg"
+    vendor="android"
+    product="androidstudio"
     if [[ $(arch) == arm64 ]]; then
 	 downloadURL=$(curl -fsL "https://developer.android.com/studio#downloads" | grep -i arm.dmg | head -2 | grep -o -i -E "https.*" | cut -d '"' -f1)
 	 appNewVersion=$( echo "${downloadURL}" | head -1 | sed 's/^.*[^0-9]\([0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\).*$/\1/' )

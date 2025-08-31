@@ -1,6 +1,8 @@
 jetbrainsgoland)
     name="GoLand"
     type="dmg"
+    vendor="jetbrains"
+    product="goland"
     jetbrainscode="GO"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

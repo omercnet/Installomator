@@ -1,6 +1,8 @@
 whimsical)
     name="Whimsical"
     type="dmg"
+    vendor="whimsical"
+    product="whimsical"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://desktop.whimsical.com/mac/dmg/arm64"
     elif [[ $(arch) == "i386" ]]; then

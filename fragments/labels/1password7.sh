@@ -1,6 +1,8 @@
 1password7)
     name="1Password 7"
     type="pkg"
+    vendor="1password"
+    product="1password"
     downloadURL="https://app-updates.agilebits.com/download/OPM7"
     appNewVersion=$( curl -fsIL "${downloadURL}" | grep -i "^location" | awk '{print $2}' | sed -E 's/.*\/[0-9a-zA-Z]*-([0-9.]*)\..*/\1/g' )
     expectedTeamID="2BUA8C4S2C"

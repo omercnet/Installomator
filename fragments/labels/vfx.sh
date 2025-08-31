@@ -1,6 +1,8 @@
 vfx)
     name="VFX Suite"
     type="zip"
+    vendor="vfx"
+    product="vfx"
     appCustomVersion(){
       ls "/Users/Shared/Red Giant/uninstall" | grep vfx | grep -Eo "202[0-9]+\.[0-9]+\.[0-9]+" | head -n 30 | sort -gru
     }

@@ -1,6 +1,8 @@
 insomnia)
     name="Insomnia"
     type="dmg"
+    vendor="insomnia"
+    product="insomnia"
     #downloadURL=$(downloadURLFromGit kong insomnia)
     downloadURL=$(curl -fs "https://updates.insomnia.rest/downloads/mac/latest?app=com.insomnia.app&source=website" | grep -o "https.*\.dmg")
     #appNewVersion=$(versionFromGit kong insomnia)

@@ -4,6 +4,8 @@ zohoworkdrivetruesync)
 # Privacy policy: https://www.zoho.com/privacy.html
     name="Zoho WorkDrive TrueSync"
     type="pkg"
+    vendor="zoho"
+    product="zohoworkdrivetruesync"
     #https://www.zoho.com/workdrive/truesync.html
     downloadURL="https://files-accl.zohopublic.com/public/tsbin/download/c488f53fb0fe339a8a3868a16d56ede6"
     expectedTeamID="TZ824L8Y37"

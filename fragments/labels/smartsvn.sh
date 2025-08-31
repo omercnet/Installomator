@@ -1,6 +1,8 @@
 smartsvn)
     name="SmartSVN"
     type="dmg"
+    vendor="smartsvn"
+    product="smartsvn"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://www.smartsvn.com$(curl -fsL "https://www.smartsvn.com/download/" | grep -oE "href=\".*-aarch64.*\.dmg\"" | cut -d '"' -f 2)"
     elif [[ $(arch) == "i386" ]]; then

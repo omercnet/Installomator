@@ -2,6 +2,8 @@ googlejapaneseinput)
     # credit: Tadayuki Onishi (@kenchan0130)
     name="GoogleJapaneseInput"
     type="pkgInDmg"
+    vendor="google"
+    product="japaneseinput"
     pkgName="GoogleJapaneseInput.pkg"
     downloadURL="https://dl.google.com/japanese-ime/latest/GoogleJapaneseInput.dmg"
     blockingProcesses=( NONE )

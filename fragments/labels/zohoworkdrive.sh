@@ -4,6 +4,8 @@ zohoworkdrive)
 # Privacy policy: https://www.zoho.com/privacy.html
     name="Zoho WorkDrive"
     type="dmg"
+    vendor="zoho"
+    product="zohoworkdrive"
     lines=$(curl -fs https://www.zohowebstatic.com/sites/all/themes/zoho/scripts/workdrive.js | grep files-accl.zohopublic.com | tr '"' "\n")
     downloadURL=$(echo "$lines" | grep -i "files-accl.zohopublic.com")$(echo "$lines" | grep -i -A17 "files-accl.zohopublic.com" | grep -i -A2 macintosh | tail -1)
     expectedTeamID="TZ824L8Y37"

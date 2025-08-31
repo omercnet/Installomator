@@ -1,6 +1,8 @@
 pingplotter)
     name="PingPlotter"
     type="zip"
+    vendor="pingplotter"
+    product="pingplotter"
     downloadURL="https://www.pingplotter.com/downloads/pingplotter_osx.zip"
     appNewVersion=""
     expectedTeamID="JXB6F3JSYT"

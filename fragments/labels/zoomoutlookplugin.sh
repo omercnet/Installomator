@@ -3,6 +3,8 @@ zoomoutlookplugin)
     appName="PluginLauncher.app"
     targetDir="/Applications/ZoomOutlookPlugin"
     type="pkg"
+    vendor="zoom"
+    product="zoom"
     downloadURL="https://zoom.us/client/latest/ZoomMacOutlookPlugin.pkg"
     appNewVersion="$(curl -fsIL ${downloadURL} | grep -i ^location | cut -d "/" -f5 | cut -d "." -f1-3)"
     expectedTeamID="BJ4HAAB9B3"

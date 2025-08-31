@@ -3,6 +3,8 @@ webexteams)
     # credit: Erik Stam (@erikstam)
     name="Webex"
     type="dmg"
+    vendor="webex"
+    product="webex"
     appNewVersion=$(curl -fs https://help.webex.com/en-us/article/8dmbcr/Webex-App-%7C-What%27s-New | tr '"' "\n" |  grep "Mac—"| head -1|sed 's/[^0-9\.]//g' )
     blockingProcesses=( "Webex" "Webex Teams" "Cisco WebEx Start" "WebexHelper")
     if [[ $(arch) == arm64 ]]; then

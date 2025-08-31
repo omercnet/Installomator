@@ -1,6 +1,8 @@
 jabradirect)
     name="Jabra Direct"
     type="pkgInDmg"
+    vendor="jabra"
+    product="jabradirect"
     # packageID="com.jabra.directonline"
     versionKey="CFBundleVersion"
     downloadURL="https://jabraxpressonlineprdstor.blob.core.windows.net/jdo/JabraDirectSetup.dmg"

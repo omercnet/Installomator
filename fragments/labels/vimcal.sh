@@ -1,6 +1,8 @@
 vimcal)
     name="Vimcal"
     type="dmg"
+    vendor="vimcal"
+    product="vimcal"
     if [[ $(arch) == "arm64" ]]; then
         fileDownloadName=$(curl -s https://www.vimcal.com/downloads/mac | grep -o 'Vimcal-[0-9.]\+-arm64\.dmg' | head -n 1)
         appNewVersion="${fileDownloadName#Vimcal-}"

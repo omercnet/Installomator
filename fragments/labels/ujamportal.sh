@@ -1,6 +1,8 @@
 ujamportal)
     name="UJAM"
     type="dmg"
+    vendor="ujam"
+    product="ujamportal"
     appNewVersion="$(curl -s -i "https://software.ujam.com/ujamapp/latest-mac.yml" | grep "version" | cut -d" " -f2 | xargs)"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://software.ujam.com/ujamapp/UJAM-${appNewVersion}-arm64.dmg"

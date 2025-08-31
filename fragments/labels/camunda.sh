@@ -1,6 +1,8 @@
 camunda)
     name="Camunda Modeler"
     type="dmg"
+    vendor="camunda"
+    product="camunda"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL=$(curl -fs https://camunda.com/download/modeler/ |  sed -n 's/.*href="\([^"]*\)".*/\1/p' | grep arm64.dmg)
     elif [[ $(arch) == "i386" ]]; then

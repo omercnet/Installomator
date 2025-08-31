@@ -1,6 +1,8 @@
 googlechromepkg)
     name="Google Chrome"
     type="pkg"
+    vendor="google"
+    product="chromepkg"
     #
     # Note: this url acknowledges that you accept the terms of service
     # https://support.google.com/chrome/a/answer/9915669

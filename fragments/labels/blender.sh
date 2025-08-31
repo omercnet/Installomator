@@ -1,6 +1,8 @@
 blender)
     name="Blender"
     type="dmg"
+    vendor="blender_foundation"
+    product="blender"
     versionKey="CFBundleShortVersionString"
     baseVersion=$(curl -sf https://ftp.nluug.nl/pub/graphics/blender/release/ | grep -o 'Blender[0-9]\+\.[0-9]\+' | cut -d 'r' -f 2 | sort -V | tail -1)
     if [[ $(arch) == "arm64" ]]; then

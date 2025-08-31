@@ -1,6 +1,8 @@
 eclipsetemurin8)
     name="Temurin 8"
     type="pkg"
+    vendor="temurin"
+    product="eclipsetemurin"
     downloadURL="$(downloadURLFromGit adoptium temurin8-binaries)"
     appNewVersion="$(downloadURLFromGit adoptium temurin8-binaries | grep -oE 'jdk8u[0-9]+-b[0-9]+' | sed 's/jdk//')"
     expectedTeamID="JCDTMS22B4"

@@ -1,6 +1,8 @@
 horos)
     name="Horos"
     type="dmg"
+    vendor="horos"
+    product="horos"
     versionKey="CFBundleShortVersionString"
     if [[ $(arch) == "arm64" ]]; then
     	imageName=$(curl -fs https://horosproject.org/horos-content/ | grep "arm64" | tail -1 | sed "s|.*href=\"\(.*\)\">Horos.*|\\1|")

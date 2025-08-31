@@ -1,6 +1,8 @@
 teamviewerhost)
     name="TeamViewerHost"
     type="pkgInDmg"
+    vendor="teamviewerhost"
+    product="teamviewerhost"
     packageID="com.teamviewer.teamviewerhost"
     pkgName="Install TeamViewerHost.app/Contents/Resources/Install TeamViewerHost.pkg"
     downloadURL="https://download.teamviewer.com/download/TeamViewerHost.dmg"

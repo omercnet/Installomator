@@ -1,6 +1,8 @@
 uviworkstation)
     name="UVIWorksation"
     type="pkgInDmg"
+    vendor="uviworksation"
+    product="uviworkstation"
     packageID="net.uvi.pkg.UVIWorkstation.SA"
     downloadURL="https://www.uvi.net/dwl.php?p=mac"
     appNewVersion="$(curl -s -i "${downloadURL}" | grep "location" | cut -d\- -f2 | xargs)"

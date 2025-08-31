@@ -1,6 +1,8 @@
 1password8)
     name="1Password"
     type="pkg"
+    vendor="1password"
+    product="1password"
     packageID="com.1password.1password"
     downloadURL="https://downloads.1password.com/mac/1Password.pkg"
     appNewVersion=$(curl -s https://releases.1password.com/mac/ | grep "1Password for Mac" | head -n 1 | grep -o ">Updated to.*on<" | grep -oE "[0-9].*[0-9]" | cut -d - -f 1)

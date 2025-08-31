@@ -1,6 +1,8 @@
 tableaupublic)
     name="Tableau Public"
     type="pkgInDmg"
+    vendor="tableau"
+    product="tableaupublic"
     packageID="com.tableausoftware.tableaudesktop"
     downloadURL=$(curl -fs https://www.tableau.com/downloads/public/mac | awk '/TableauPublic/' | xmllint --recover --html --xpath "//a/text()" -)
     appNewVersion=$( echo $downloadURL | sed -E 's/.*TableauPublic-([-0-9]*)\.dmg/\1/g' | tr "-" "." )

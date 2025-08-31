@@ -1,6 +1,8 @@
 libericajdk11ltsfull)
     name="Liberica JDK 11 LTS Full"
     type="pkg"
+    vendor="liberica"
+    product="libericajdk11ltsfull"
     case $(arch) in
         "arm64")
             cpu_arch="arm"
@@ -10,7 +12,11 @@ libericajdk11ltsfull)
         ;;
     esac
     appNewVersion="$(curl "https://api.bell-sw.com/v1/liberica/releases?version-modifier=latest&version-feature=11&bitness=64&release-type=lts&os=macos&arch=${cpu_arch}&package-type=pkg&bundle-type=jdk-full" | sed 's/.*"version":"\{0,1\}\([^,"]*\)"\{0,1\}.*/\1/')"
+    vendor="liberica"
+    product="libericajdk11ltsfull"
     downloadURL=$(curl "https://api.bell-sw.com/v1/liberica/releases?version=${appNewVersion}&bitness=64&os=macos&arch=${cpu_arch}&package-type=pkg&bundle-type=jdk-full&output=text&fields=downloadUrl")
+    vendor="liberica"
+    product="libericajdk11ltsfull"
     appCustomVersion(){ if [ -f "/Library/Java/JavaVirtualMachines/liberica-jdk-11-full.jdk/Contents/Info.plist" ] ; then /usr/bin/defaults read "/Library/Java/JavaVirtualMachines/liberica-jdk-8-full.jdk/Contents/Info.plist" "CFBundleVersion" ; fi }
     expectedTeamID="8LBATW8FZA"
     ;;

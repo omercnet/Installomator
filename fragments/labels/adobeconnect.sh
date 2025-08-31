@@ -4,6 +4,8 @@ adobeconnect)
     # Looks like it's an Adobe installer in an app, so it will probably not work
     name="AdobeConnectInstaller"
     type="dmg"
+    vendor="adobe"
+    product="connect"
     downloadURL="http://www.adobe.com/go/ConnectSetupMac"
     appNewVersion=$(curl -fs https://helpx.adobe.com/adobe-connect/connect-downloads-updates.html | grep "Mac" | grep version | head -1 | sed -E 's/.*\(version ([0-9\.]*),.*/\1/g')
     expectedTeamID="JQ525L2MZD"

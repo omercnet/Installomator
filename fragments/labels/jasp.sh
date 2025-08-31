@@ -1,6 +1,8 @@
 jasp)
     name="JASP"
     type="dmg"
+    vendor="jasp"
+    product="jasp"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="JASP-[0-9.]*-macOS-arm64.dmg"
     elif [[ $(arch) == "i386" ]]; then

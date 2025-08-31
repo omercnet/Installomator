@@ -1,6 +1,8 @@
 surfdrive)
     name="SURFdrive"
     type="pkg"
+    vendor="surfdrive"
+    product="surfdrive"
 	if [[ $(arch) == "arm64" ]]; then
 		downloadURL=$(curl -fs https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/74225443/Desktop+client+login|grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep pkg | grep arm64)
 		appNewVersion=$(curl -fs https://servicedesk.surf.nl/wiki/spaces/WIKI/pages/74225443/Desktop+client+login|grep -Eo "(http|https)://[a-zA-Z0-9./?=_%:-]*" | grep pkg | grep arm |cut -d -f2)

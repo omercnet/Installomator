@@ -1,6 +1,8 @@
 zulujdk15)
     name="Zulu JDK 15"
     type="pkgInDmg"
+    vendor="zulu"
+    product="zulujdk"
     packageID="com.azulsystems.zulu.15"
     if [[ $(arch) == i386 ]]; then
         downloadURL=https://cdn.azul.com/zulu/bin/$(curl -fs "https://cdn.azul.com/zulu/bin/" | grep -Eio '">zulu15.*ca-jdk15.*x64.dmg(.*)' | cut -c3- | sed 's/<\/a>//' | sed -E 's/([0-9.]*)M//' | awk '{print $2 $1}' | sort | cut -c11- | tail -1)

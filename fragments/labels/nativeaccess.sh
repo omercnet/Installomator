@@ -1,6 +1,8 @@
 nativeaccess)
     name="Native Access"
     type="zip"
+    vendor="native"
+    product="nativeaccess"
     if [[ $(arch) == "arm64" ]]; then
         naDetails="$(curl -fs "https://na-update.native-instruments.com/arm64/latest-mac.yml")"
         naItem="arm64/$(echo "$naDetails" | grep "path" | awk '{print $2}' | xargs)"

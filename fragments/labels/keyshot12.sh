@@ -1,6 +1,8 @@
 keyshot12)
     name="KeyShot12"
     type="pkg"
+    vendor="keyshot12"
+    product="keyshot"
     packageID="com.luxion.pkg.keyshot12.app"
     expectedTeamID="W7B24M74T3"
     downloadURL="https://www.keyshot.com/download/357619/"

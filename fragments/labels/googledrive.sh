@@ -3,6 +3,8 @@ googledrivefilestream)
     # credit: Isaac Ordonez, Mann consulting (@mannconsulting)
     name="Google Drive File Stream"
     type="pkgInDmg"
+    vendor="google"
+    product="drive"
     if [[ $(arch) == "arm64" ]]; then
        packageID="com.google.drivefs.arm64"
     elif [[ $(arch) == "i386" ]]; then

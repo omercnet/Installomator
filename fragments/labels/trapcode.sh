@@ -1,6 +1,8 @@
 trapcode)
     name="Trapcode Suite"
     type="zip"
+    vendor="trapcode"
+    product="trapcode"
     appCustomVersion(){
       ls "/Users/Shared/Red Giant/uninstall" | grep trapcode | grep -Eo "202[0-9]+\.[0-9]+\.[0-9]+" | sort -gru | head -n 1
     }

@@ -191,7 +191,7 @@ for fixedArch in i386 arm64; do
     for label in $allLabels; do
         echo "########## $label"
         labelWarning=0; labelError=0; expectedExtension=""; URLextension=""
-        name=""; type=""; downloadURL=""; curlOptions=""; appNewVersion=""; expectedTeamID=""; blockingProcesses=""; updateTool=""; updateToolArguments=""; archiveName=""
+        name=""; type=""; downloadURL=""; curlOptions=""; appNewVersion=""; expectedTeamID=""; blockingProcesses=""; updateTool=""; updateToolArguments=""; archiveName=""; vendor=""; product=""
 
         #caseLabel
         if cat "${labels_dir}/${label}.sh" | grep -v -E '^[a-z0-9\_-]*(\)|\|\\)$' | grep -v ";;" > checkLabelCurrent.sh; then
@@ -199,6 +199,8 @@ for fixedArch in i386 arm64; do
             source checkLabelCurrent.sh
 
             echo "Name: $name"
+            echo "Vendor: $vendor"
+            echo "Product: $product"
             echo "Download URL: $downloadURL"
             echo "Type: $type"
             case $type in

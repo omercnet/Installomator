@@ -1,6 +1,8 @@
 firefox)
     name="Firefox"
     type="dmg"
+    vendor="mozilla"
+    product="firefox"
     downloadURL="https://download.mozilla.org/?product=firefox-latest&os=osx&lang=en-US"
     firefoxVersions=$(curl -fs "https://product-details.mozilla.org/1.0/firefox_versions.json")
     appNewVersion=$(getJSONValue "$firefoxVersions" "LATEST_FIREFOX_VERSION")

@@ -1,6 +1,8 @@
 franz)
     name="Franz"
     type="dmg"
+    vendor="franz"
+    product="franz"
     if [[ $(arch) = "arm64" ]]; then
         archiveName="Franz-[0-9.]*-arm64.dmg" 
     else 

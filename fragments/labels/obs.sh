@@ -1,6 +1,8 @@
 obs)
     name="OBS"
     type="dmg"
+    vendor="obs"
+    product="obs"
     if [[ $(arch) == "arm64" ]]; then
         SUFeedURL="https://obsproject.com/osx_update/updates_arm64_v2.xml"
     elif [[ $(arch) == "i386" ]]; then

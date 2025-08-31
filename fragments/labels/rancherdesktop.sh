@@ -1,6 +1,8 @@
 rancherdesktop)
     name="Rancher Desktop"
     type="zip"
+    vendor="rancher"
+    product="rancherdesktop"
     if [[ $(arch) == "arm64" ]]; then
       archiveName="Rancher.Desktop-[0-9.]*-mac.aarch64.zip"
       downloadURL="$(downloadURLFromGit rancher-sandbox rancher-desktop)"

@@ -1,6 +1,8 @@
 marathoninfinity)
     name="Classic Marathon Infinity"
     type="dmg"
+    vendor="classic"
+    product="marathoninfinity"
     archiveName="MarathonInfinity-[0-9.]*-Mac.dmg"
     versionKey="CFBundleVersion"
     downloadURL="$(downloadURLFromGit Aleph-One-Marathon alephone)"

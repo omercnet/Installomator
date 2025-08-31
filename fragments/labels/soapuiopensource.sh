@@ -1,6 +1,8 @@
 soapuiopensource)
     name="SoapUI"
     type="dmg"
+    vendor="soapui"
+    product="soapuiopensource"
     downloadURL="$(curl -fsL "https://github.com/SmartBear/soapui/releases/latest" | grep -m 1 -o 'href=".*\.dmg".*' | cut -d '"' -f 2)"
     appNewVersion="$(versionFromGit SmartBear soapui)"
     appCustomVersion() {

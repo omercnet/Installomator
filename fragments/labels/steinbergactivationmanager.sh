@@ -6,6 +6,8 @@ steinbergactivationmanager)
     #
     name="Steinberg Activation Manager"
     type="pkgInDmg"
+    vendor="steinberg"
+    product="steinbergactivationmanager"
     packageID="com.steinberg.activationmanager"
     downloadURL="https://www.steinberg.net/sam-mac"
     appNewVersion="$( curl -LIs "${downloadURL}" | grep -i "location:" | grep "dmg" | cut -d\/ -f7 | cut -d'.' -f1-3 )"

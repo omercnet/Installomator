@@ -1,6 +1,8 @@
 scenebuilder)
     name="SceneBuilder"
     type="dmg"
+    vendor="scenebuilder"
+    product="scenebuilder"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL=$(curl -sfL "https://gluonhq.com/products/scene-builder/" | xmllint --html --format - 2>/dev/null | grep -o "https://.*SceneBuilder.*aarch64.dmg")
     elif [[ $(arch) == "i386" ]]; then

@@ -3,6 +3,8 @@ firefoxesr_intl)
     # and install corrosponding version of Firefox ESR
     name="Firefox"
     type="dmg"
+    vendor="firefox"
+    product="firefoxesr_intl"
     userLanguage=$(runAsUser defaults read .GlobalPreferences AppleLocale | tr '_' '-')
     printlog "Found language $userLanguage to be used for $name."
     releaseURL="https://ftp.mozilla.org/pub/firefox/releases/latest-esr/README.txt"

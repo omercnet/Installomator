@@ -1,6 +1,8 @@
 microsoftpowerpoint)
     name="Microsoft PowerPoint"
     type="pkg"
+    vendor="microsoft"
+    product="powerpoint"
     downloadURL="https://go.microsoft.com/fwlink/?linkid=525136"
     #appNewVersion=$(curl -fs https://macadmins.software/latest.xml | xpath '//latest/package[id="com.microsoft.powerpoint.standalone.365"]/cfbundleshortversionstring' 2>/dev/null | sed -E 's/<cfbundleshortversionstring>([0-9.]*)<.*/\1/')
     appNewVersion=$(curl -fsIL "$downloadURL" | grep -i location: | grep -o "/Microsoft_.*pkg" | cut -d "_" -f 3 | cut -d "." -f 1-2)

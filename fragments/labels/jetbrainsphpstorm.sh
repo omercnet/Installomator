@@ -1,6 +1,8 @@
 jetbrainsphpstorm)
     name="PHPStorm"
     type="dmg"
+    vendor="jetbrains"
+    product="phpstorm"
     jetbrainscode="PS"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

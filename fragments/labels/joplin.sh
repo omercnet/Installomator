@@ -1,6 +1,8 @@
 joplin)
     name="Joplin"
     type="dmg"
+    vendor="joplin"
+    product="joplin"
 	if [[ $(arch) == “arm64” ]]; then
         archiveName="Joplin-[0-9.]*-arm64.DMG"
     elif [[ $(arch) == “i386” ]]; then

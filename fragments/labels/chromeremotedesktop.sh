@@ -1,6 +1,8 @@
 chromeremotedesktop)
     name="chromeremotedesktop"
     type="pkgInDmg"
+    vendor="chromeremotedesktop"
+    product="chromeremotedesktop"
     packageID="com.google.pkg.ChromeRemoteDesktopHost"
     downloadURL="https://dl.google.com/chrome-remote-desktop/chromeremotedesktop.dmg"
     appNewVersion=""

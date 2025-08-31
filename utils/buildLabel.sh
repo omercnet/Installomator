@@ -413,6 +413,8 @@ fi
 echo "\n$identifier)"
 echo "    name=\"$name\""
 echo "    type=\"$archiveExt\""
+echo "    vendor=\"[VENDOR_TO_BE_FILLED]\"  # TODO: Fill with appropriate vendor name for CPE"
+echo "    product=\"[PRODUCT_TO_BE_FILLED]\"  # TODO: Fill with appropriate product name for CPE"
 if [ -n "$packageID" ]; then
 echo "    packageID=\"$packageID\""
 fi

@@ -1,6 +1,8 @@
 podmandesktopairgap)
     name="Podman Desktop"
     type="dmg"
+    vendor="podman"
+    product="podmandesktopairgap"
     downloadURL=$(downloadURLFromGit containers podman-desktop)
     appNewVersion=$(versionFromGit containers podman-desktop)
     if [[ $(arch) == "arm64" ]]; then

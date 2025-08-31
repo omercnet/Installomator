@@ -1,6 +1,8 @@
 jetbrainstoolbox)
     name="JetBrains Toolbox"
     type="dmg"
+    vendor="jetbrains"
+    product="toolbox"
     jetbrainscode="TBA"
     jetbrainsdistribution="mac"
     if [[ $(arch) == arm64 ]]; then

@@ -1,6 +1,8 @@
 logseq)
     name="Logseq"
     type="dmg"
+    vendor="logseq"
+    product="logseq"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="darwin-arm64-[0-9.]*.dmg"
         downloadURL=$(downloadURLFromGit logseq logseq)

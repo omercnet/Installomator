@@ -1,6 +1,8 @@
 scribus)
     name="Scribus"
     type="dmg"
+    vendor="scribus"
+    product="scribus"
     appNewVersion=$(curl -fsL "https://sourceforge.net/projects/scribus/rss?path=/scribus" | xpath '//rss/channel/item[1]/title' 2>/dev/null | awk -F'/' '{ print $3 }')
     if [[ $(arch) == "arm64" ]]; then
         downloadURL=$(curl -fsL "https://sourceforge.net/projects/scribus/rss?path=/scribus/${appNewVersion}" | grep -oE '<link>(.*-arm64.dmg/download)</link>' | head -1 |  sed 's/<link>//;s/<\/link>//')

@@ -1,6 +1,8 @@
 smartgit)
     name="SmartGit"
     type="dmg"
+    vendor="smartgit"
+    product="smartgit"
     if [[ $(arch) == "arm64" ]]; then
     downloadURL="https://www.syntevo.com$(curl -fs "https://www.syntevo.com/smartgit/download/" | grep -i -o -E "/downloads/.*/smartgit.*\.dmg" | tail -1)"
     elif [[ $(arch) == "i386" ]]; then

@@ -1,6 +1,8 @@
 drawio)
     name="draw.io"
     type="dmg"
+    vendor="drawio"
+    product="drawio"
     archiveName="draw.io-universal-[0-9.]*.dmg"
     downloadURL="$(downloadURLFromGit jgraph drawio-desktop)"
     appNewVersion="$(versionFromGit jgraph drawio-desktop)"

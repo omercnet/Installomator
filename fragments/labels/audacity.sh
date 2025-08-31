@@ -1,6 +1,8 @@
 audacity)
     name="Audacity"
     type="dmg"
+    vendor="audacity"
+    product="audacity"
     archiveName="audacity-macOS-[0-9.]*-universal.dmg"
     downloadURL=$(downloadURLFromGit audacity audacity)
     appNewVersion=$(versionFromGit audacity audacity)

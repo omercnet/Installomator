@@ -1,6 +1,8 @@
 raindropio)
     name="Raindrop.io"
     type="dmg"
+    vendor="raindropio"
+    product="raindropio"
     if [[ $(arch) == i386 ]]; then
         archiveName="Raindrop-x64.dmg"
     elif [[ $(arch) == arm64 ]]; then

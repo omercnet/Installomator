@@ -1,6 +1,8 @@
 sonobus)
     name="Sonobus"
     type="pkgInDmg"
+    vendor="sonobus"
+    product="sonobus"
     html_page_source="$(curl -fs 'https://www.sonobus.net')"
     downloadFile="$(echo "${html_page_source}" | xmllint --html --xpath "string(//a[contains(@href, 'mac.dmg')]/@href)" - 2> /dev/null)"
     downloadURL="https://www.sonobus.net/$downloadFile"

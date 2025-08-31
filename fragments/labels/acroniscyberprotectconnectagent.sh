@@ -2,6 +2,8 @@ acroniscyberprotectconnectagent|\
 remotixagent)
     name="Acronis Cyber Protect Connect Agent"
     type="pkg"
+    vendor="acronis"
+    product="acroniscyberprotectconnectagent"
     #packageID="com.nulana.rxagentmac"
     downloadURL="https://go.acronis.com/AcronisCyberProtectConnect_AgentForMac"
     versionKey="CFBundleVersion"

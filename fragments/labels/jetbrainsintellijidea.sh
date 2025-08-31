@@ -1,6 +1,8 @@
 jetbrainsintellijidea)
     name="IntelliJ IDEA"
     type="dmg"
+    vendor="jetbrains"
+    product="intellij_idea"
     jetbrainscode="II"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

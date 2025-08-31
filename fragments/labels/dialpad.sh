@@ -2,6 +2,8 @@ dialpad)
     # credit: @ehosaka
     name="Dialpad"
     type="dmg"
+    vendor="dialpad"
+    product="dialpad"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://storage.googleapis.com/dialpad_native/osx/arm64/Dialpad.dmg"
     elif [[ $(arch) == "i386" ]]; then

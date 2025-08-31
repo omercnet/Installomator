@@ -1,6 +1,8 @@
 ultimakercura)
     name="Ultimaker Cura"
     type="dmg"
+    vendor="ultimaker"
+    product="ultimakercura"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="UltiMaker-Cura-[0-9.]*-macos-ARM64.dmg"
     elif [[ $(arch) == "i386" ]]; then

@@ -1,6 +1,8 @@
 teamwire)
     name="Teamwire"
     type="dmg"
+    vendor="teamwire"
+    product="teamwire"
     packageID="eu.teamwire.app"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://desktop.teamwire.eu/download.php?platform=darwinArm64"

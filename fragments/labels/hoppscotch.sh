@@ -1,6 +1,8 @@
 hoppscotch)
     name="Hoppscotch"
     type="dmg"
+    vendor="hoppscotch"
+    product="hoppscotch"
     if [[ $(arch) == arm64 ]]; then
         archiveName="Hoppscotch_mac_aarch64.dmg"
     elif [[ $(arch) == i386 ]]; then

@@ -1,6 +1,8 @@
 jetbrainswebstorm)
     name="Webstorm"
     type="dmg"
+    vendor="jetbrains"
+    product="webstorm"
     jetbrainscode="WS"
     jetbrainsdistribution="mac"
     if [[ $(arch) == arm64 ]]; then

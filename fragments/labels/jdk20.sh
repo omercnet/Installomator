@@ -1,6 +1,8 @@
 jdk20)
     name="Java SE Development Kit 20"
     type="pkgInDmg"
+    vendor="java"
+    product="jdk"
     versionKey="CFBundleShortVersionString"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://download.oracle.com/java/20/latest/jdk-20_macos-aarch64_bin.dmg"

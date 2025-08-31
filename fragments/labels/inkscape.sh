@@ -1,6 +1,8 @@
 inkscape)
     name="Inkscape"
     type="dmg"
+    vendor="inkscape_project"
+    product="inkscape"
     appCustomVersion() { /Applications/Inkscape.app/Contents/MacOS/inkscape --version | cut -d " " -f2 }
     appNewVersion=$(curl -fsL https://inkscape.org/release/  | grep "<title>" | grep -o -e "[0-9.]*")
     if [[ $(arch) == arm64 ]]; then

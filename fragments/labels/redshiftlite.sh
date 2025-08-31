@@ -2,6 +2,8 @@ redshiftlite)
     name="redshift"
     blockingProcesses=( "Cinema 4D" )
     type="pkg"
+    vendor="redshift"
+    product="redshiftlite"
     packageID="com.redshift3d.redshift"
     expectedTeamID="4ZY22YGXQG"
     downloadURL=$(curl -fsL https://www.maxon.net/en/downloads | grep -oE '[^"]*redshift[^"]*min\.pkg' | head -1)

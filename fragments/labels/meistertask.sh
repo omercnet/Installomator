@@ -1,6 +1,8 @@
 meistertask)
     name="MeisterTask"
     type="dmg"
+    vendor="meistertask"
+    product="meistertask"
     downloadURL="https://www.meistertask.com/files/MeisterTask_osx.dmg"
     appNewVersion=""
     expectedTeamID="4MX957DLH9"

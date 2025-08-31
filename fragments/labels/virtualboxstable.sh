@@ -1,6 +1,8 @@
 virtualboxstable)
     name="VirtualBox"
     type="pkgInDmg"
+    vendor="virtualbox"
+    product="virtualboxstable"
     pkgName="VirtualBox.pkg"
     appNewVersion=$(curl -fs "https://download.virtualbox.org/virtualbox/LATEST-STABLE.TXT")
     if [[ $(arch) == "arm64" ]]; then

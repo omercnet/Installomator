@@ -1,6 +1,8 @@
 jetbrainsrubymine)
      name="RubyMine"
      type="dmg"
+    vendor="jetbrains"
+    product="rubymine"
      jetbrainscode="RM"
      if [[ $(arch) == i386 ]]; then
          jetbrainsdistribution="mac"

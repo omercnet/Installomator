@@ -1,6 +1,8 @@
 mochatn5250)
     name="TN5250"
     type="appInDmgInZip"
+    vendor="tn5250"
+    product="mochatn"
     downloadURL="https://mochasoft.dk/tn5250.dmg.zip"
     curlOptions=( -H "User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15"
 -H "accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"

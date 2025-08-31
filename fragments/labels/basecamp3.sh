@@ -1,6 +1,8 @@
 basecamp3)
     name="Basecamp 3"
     type="dmg"
+    vendor="basecamp"
+    product="basecamp"
     if [[ $(/usr/bin/arch) == "arm64" ]]; then
         downloadURL="https://bc3-desktop.s3.amazonaws.com/mac_arm64/basecamp3_arm64.dmg"
     else

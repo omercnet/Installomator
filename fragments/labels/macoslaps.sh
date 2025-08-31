@@ -1,6 +1,8 @@
 macoslaps)
     name="macOSLAPS"
     type="pkg"
+    vendor="macoslaps"
+    product="macoslaps"
     packageID="edu.psu.macOSLAPS"
     downloadURL="$(downloadURLFromGit joshua-d-miller macOSLAPS)"
     appNewVersion="$(versionFromGit joshua-d-miller macOSLAPS)"

@@ -1,6 +1,8 @@
 lunadisplay)
     name="Luna Display"
     type="dmg"
+    vendor="luna"
+    product="lunadisplay"
     downloadURL="https://downloads.astropad.com/luna/mac/latest"
     appNewVersion=$(curl -sI "${downloadURL}" | grep -o -E 'location:.*$' | grep -o -E '\d+\.\d+\.\d+\.\d+')
     appCustomVersion(){

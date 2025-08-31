@@ -1,6 +1,8 @@
 microsoftwindowsapp)
     name="Windows App"
     type="pkg"
+    vendor="microsoft"
+    product="windowsapp"
     packageID="com.microsoft.rdc.macos"
     blockingProcesses=( "Windows App" "Microsoft Remote Desktop" )
     downloadURL="https://go.microsoft.com/fwlink/?linkid=868963"

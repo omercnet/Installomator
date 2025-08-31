@@ -2,6 +2,8 @@ openvpnconnectv3)
     # credit: @lotnix
     name="OpenVPN Connect"
     type="pkgInDmg"
+    vendor="openvpn"
+    product="openvpnconnectv"
     if [[ $(arch) == "arm64" ]]; then
         pkgName="OpenVPN_Connect_[0-9_()]*_arm64_Installer_signed.pkg"
     elif [[ $(arch) == "i386" ]]; then

@@ -1,6 +1,8 @@
 jetbrainsgateway)
     name="JetBrains Gateway"
     type="dmg"
+    vendor="jetbrains"
+    product="gateway"
     jetbrainscode="GW"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

@@ -1,6 +1,8 @@
 marathon2)
     name="Classic Marathon 2"
     type="dmg"
+    vendor="classic"
+    product="marathon"
     archiveName="Marathon2-[0-9.]*-Mac.dmg"
     versionKey="CFBundleVersion"
     downloadURL="$(downloadURLFromGit Aleph-One-Marathon alephone)"

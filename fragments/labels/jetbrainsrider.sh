@@ -1,6 +1,8 @@
 jetbrainsrider)
     name="Rider"
     type="dmg"
+    vendor="jetbrains"
+    product="rider"
     jetbrainscode="RD"
     if [[ $(arch) == i386 ]]; then
         jetbrainsdistribution="mac"

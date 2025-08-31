@@ -1,6 +1,8 @@
 morisawadesktopmanager)
     name="Morisawa Desktop Manager"
     type="pkgInDmg"
+    vendor="morisawa"
+    product="morisawadesktopmanager"
     packageID="jp.co.morisawa.MorisawaDesktopManager.Installer"
     morisawadesktopmanagerVersions=$(curl -fsL https://morisawafonts.com/resources/dm/mf_updates.mac.json)
     downloadURL=$(getJSONValue "${morisawadesktopmanagerVersions}" "latest_url")

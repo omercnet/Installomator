@@ -1,6 +1,8 @@
 slab)
     name="Slab"
     type="dmg"
+    vendor="slab"
+    product="slab"
     if [[ $(arch) == i386 ]]; then
        archiveName="Slab-[0-9.]*-darwin-x64.dmg"
     elif [[ $(arch) == arm64 ]]; then

@@ -1,6 +1,8 @@
 jamovi)
     name="jamovi"
     type="dmg"
+    vendor="jamovi"
+    product="jamovi"
     downloadURL="http://www.jamovi.org"
     if [[ -n $jamoviLatest ]]; then
         downloadURL="${downloadURL}$(curl -s "$downloadURL/download.html" | grep macos | grep "download-button" | head -1 | cut -d '"' -f 4)"

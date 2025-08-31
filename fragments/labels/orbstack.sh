@@ -1,6 +1,8 @@
 orbstack)
     name="OrbStack"
     type="dmg"
+    vendor="orbstack"
+    product="orbstack"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://orbstack.dev/download/stable/latest/arm64"
     elif [[ $(arch) == "i386" ]]; then

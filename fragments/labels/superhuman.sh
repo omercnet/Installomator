@@ -1,6 +1,8 @@
 superhuman)
     name="superhuman"
     type="dmg"
+    vendor="superhuman"
+    product="superhuman"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://download.superhuman.com/Superhuman-arm64.dmg"
     elif [[ $(arch) == "i386" ]]; then

@@ -1,6 +1,8 @@
 zulujdk8)
     name="Zulu JDK 8"
     type="pkgInDmg"
+    vendor="zulu"
+    product="zulujdk"
     packageID="com.azulsystems.zulu.8"
     if [[ $(arch) == i386 ]]; then
         downloadURL=https://cdn.azul.com/zulu/bin/$(curl -fs "https://cdn.azul.com/zulu/bin/" | grep -Eio '">zulu8.*ca-jdk8.*x64.dmg(.*)' | cut -c3- | sed 's/<\/a><\/td>//' | sed -E 's/([0-9.]*)M//' | awk '{print $2 $1}' | sort -V | tail -1)

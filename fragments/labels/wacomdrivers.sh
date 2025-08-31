@@ -1,6 +1,8 @@
 wacomdrivers)
     name="Wacom Center"
     type="pkgInDmg"
+    vendor="wacom"
+    product="wacomdrivers"
     downloadURL="$(curl -fs https://www.wacom.com/en-us/support/product-support/drivers | grep -e "drivers/mac/professional.*dmg" | head -1 | tr '"' "\n" | grep -i http)"
     expectedTeamID="EG27766DY7"
     #pkgName="Install Wacom Tablet.pkg"

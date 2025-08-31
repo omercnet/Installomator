@@ -1,6 +1,8 @@
 lcadvancedvpnclient)
     name="LANCOM Advanced VPN Client"
     type="pkgInDmg"
+    vendor="lancom"
+    product="lcadvancedvpnclient"
     archiveName="LANCOM Advanced VPN Client.pkg"
     appShortVersion=$(curl -fs https://ftp.lancom.de/LANCOM-Releases/LC-VPN-Client/ | grep "macOS"| tail -1 | sed  "s|.*macOS-\(.*\)-Rel.*|\\1|")
     appNewVersion=(`sed 's/./&./1' <<< $appShortVersion`)

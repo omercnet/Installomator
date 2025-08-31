@@ -3,6 +3,8 @@ soundly)
     # From: https://getsoundly.com
     # Cheat Sheet: https://getsoundly.com/cheatsheet/Soundly-Cheatsheet-Mac.pdf
     type="dmg"
+    vendor="soundly"
+    product="soundly"
     if [[ $(arch) == i386 ]]; then
     downloadURL="https://storage.googleapis.com/soundlyapp/Soundly.dmg"
     elif [[ $(arch) == arm64 ]]; then

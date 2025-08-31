@@ -2,6 +2,8 @@ kap)
     # credit: Lance Stephens (@pythoninthegrass on MacAdmins Slack)
     name="Kap"
     type="dmg"
+    vendor="kap"
+    product="kap"
     if [[ $(arch) = "i386" ]]; then
         archiveName="${name}-[0-9.]*-x64.${type}"
         downloadURL=$(downloadURLFromGit wulkano kap | grep -i x64)

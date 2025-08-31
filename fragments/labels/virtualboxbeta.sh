@@ -1,6 +1,8 @@
 virtualboxbeta)
     name="VirtualBox"
     type="pkgInDmg"
+    vendor="virtualbox"
+    product="virtualboxbeta"
     pkgName="VirtualBox.pkg"
     betaVersion="$(curl -fs "https://download.virtualbox.org/virtualbox/LATEST-BETA.TXT")"
     if [[ $(arch) == "arm64" ]]; then

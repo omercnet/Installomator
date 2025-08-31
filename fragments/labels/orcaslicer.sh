@@ -1,6 +1,8 @@
 orcaslicer)
     name="OrcaSlicer"
     type="dmg"
+    vendor="orcaslicer"
+    product="orcaslicer"
     if [[ $(arch) == "arm64" ]]; then
        downloadURL="$(downloadURLFromGit SoftFever OrcaSlicer)"
        appNewVersion="$(versionFromGit SoftFever OrcaSlicer)"

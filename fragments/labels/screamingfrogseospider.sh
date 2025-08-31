@@ -1,6 +1,8 @@
 screamingfrogseospider)
     name="Screaming Frog SEO Spider"
     type="dmg"
+    vendor="screaming"
+    product="screamingfrogseospider"
     if [[ $(arch) == i386 ]]; then
         platform="x86_64"
     elif [[ $(arch) == arm64 ]]; then

@@ -1,6 +1,8 @@
 particulars)
     name="Particulars"
     type="pkg"
+    vendor="particulars"
+    product="particulars"
     packageID="net.glencode.Particulars"
     downloadURL="https://particulars.app/_downloads/Particulars-latest.pkg"
     appNewVersion=$(curl -fsI "${downloadURL}" | grep -i location | grep -oE "[0-9]+\.[0-9]+")

@@ -1,6 +1,8 @@
 brosix)
     name="Brosix"
     type="pkg"
+    vendor="brosix"
+    product="brosix"
     downloadURL="https://www.brosix.com/downloads/builds/official/Brosix.pkg"
     appNewVersion=""
     expectedTeamID="TA6P23NW8H"

@@ -1,6 +1,8 @@
 microsoftremotedesktop)
     name="Microsoft Remote Desktop"
     type="pkg"
+    vendor="microsoft"
+    product="remotedesktop"
     downloadURL="https://go.microsoft.com/fwlink/?linkid=868963"
     #appNewVersion=$(curl -fs https://macadmins.software/latest.xml | xpath '//latest/package[id="com.microsoft.remotedesktop.standalone"]/cfbundleshortversionstring' 2>/dev/null | sed -E 's/<cfbundleshortversionstring>([0-9.]*)<.*/\1/')
     appNewVersion=$(curl -fsIL "$downloadURL" | grep -i location: | grep -o "/Microsoft_Remote_Desktop.*pkg" | cut -d "_" -f 4)

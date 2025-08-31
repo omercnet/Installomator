@@ -1,6 +1,8 @@
 hyper)
     name="Hyper"
     type="dmg"
+    vendor="hyper"
+    product="hyper"
     if [[ $(arch) == i386 ]]; then
       archiveName="mac-x64.dmg"
     elif [[ $(arch) == arm64 ]]; then

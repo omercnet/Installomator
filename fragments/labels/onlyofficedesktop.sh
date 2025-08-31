@@ -1,6 +1,8 @@
 onlyofficedesktop)
     name="ONLYOFFICE"
     type="dmg"
+    vendor="onlyoffice"
+    product="onlyofficedesktop"
     if [[ $(arch) == "arm64" ]]; then
     downloadURL="https://download.onlyoffice.com/install/desktop/editors/mac/arm/distrib/ONLYOFFICE.dmg"
     elif [[ $(arch) == "i386" ]]; then

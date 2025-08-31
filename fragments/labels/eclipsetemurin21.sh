@@ -1,6 +1,8 @@
 eclipsetemurin21)
     name="Temurin 21"
     type="pkg"
+    vendor="temurin"
+    product="eclipsetemurin"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="OpenJDK21U-jdk_aarch64_mac_hotspot_[0-9._]+\.pkg"
     elif [[ $(arch) == "i386" ]]; then

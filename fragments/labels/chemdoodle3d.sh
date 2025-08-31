@@ -1,6 +1,8 @@
 chemdoodle3d)
     name="ChemDoodle3D"
     type="dmg"
+    vendor="chemdoodle3d"
+    product="chemdoodle3d"
     [[ $(arch) == "arm64" ]] && cpu_arch="aarch64" || cpu_arch="x64"
     downloadURL="https://www.ichemlabs.com$(curl -s -L https://www.ichemlabs.com/download | grep -oE '[^"]*Doodle3D-[^"]*'$cpu_arch'[^"]*\.dmg' | head -1)"
     expectedTeamID="9XP397UW95"

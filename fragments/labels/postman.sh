@@ -1,6 +1,8 @@
 postman)
     name="Postman"
     type="zip"
+    vendor="postman"
+    product="postman"
     curlOptions=( -H "accept-encoding: gzip, deflate, br")
     if [[ $(arch) == "arm64" ]]; then
     	downloadURL="https://dl.pstmn.io/download/latest/osx_arm64"

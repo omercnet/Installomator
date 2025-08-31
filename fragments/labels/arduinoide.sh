@@ -1,6 +1,8 @@
 arduinoide)
     name="Arduino IDE"
     type="dmg"
+    vendor="arduino"
+    product="arduinoide"
     if [[ $(arch) == "arm64" ]]; then
         archiveName="arduino-ide_[0-9.]*_macOS_arm64.dmg"
 

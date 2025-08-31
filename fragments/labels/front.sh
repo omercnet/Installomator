@@ -1,6 +1,8 @@
 front)
     name="Front"
     type="dmg"
+    vendor="front"
+    product="front"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL="https://dl.frontapp.com/macos/Front-arm64.dmg"
         appNewVersion=$(curl -fs "https://dl.frontapp.com/desktop/updates/latest/mac-arm64/latest-mac.yml" | grep -i version | cut -d " " -f2)

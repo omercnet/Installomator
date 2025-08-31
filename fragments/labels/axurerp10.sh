@@ -1,6 +1,8 @@
 axurerp10)
     name="Axure RP 10"
     type="dmg"
+    vendor="axure"
+    product="axurerp"
     if [[ $(arch) == "arm64" ]]; then
         downloadURL=$(curl -s https://www.axure.com/release-history/rp10 | grep dmg | sed -n 's/.*href="\([^"]*\)".*/\1/p' | sed 's/ *$//' | grep arm64)
     elif [[ $(arch) == "i386" ]]; then

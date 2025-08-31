@@ -2,6 +2,8 @@ bruno)
     # https://github.com/usebruno/bruno; https://www.usebruno.com/
     name="Bruno"
     type="dmg"
+    vendor="bruno"
+    product="bruno"
     if [[ $(arch) == “arm64” ]]; then
         archiveName="bruno_[0-9.]*_arm64_mac.dmg"
     elif [[ $(arch) == “i386” ]]; then

@@ -1,6 +1,8 @@
 gotiengviet)
     name="GoTiengViet"
     type="dmg"
+    vendor="gotiengviet"
+    product="gotiengviet"
     downloadURL="https://www.trankynam.com/gotv/downloads/GoTiengViet.dmg"
     appNewVersion=""
     expectedTeamID="KHEMQ2FD9E"

@@ -1,6 +1,8 @@
 zulip)
     name="Zulip"
     type="dmg"
+    vendor="zulip"
+    product="zulip"
     if [[ $(arch) == i386 ]]; then
         downloadURL="https://zulip.com/apps/download/mac"
     elif [[ $(arch) == arm64 ]]; then
